@@ -9,7 +9,8 @@ export const mutations = {
 }
 
 export const actions = {
-    login(context) {
+    login(context, {data}) {
+        console.log('In the store action and the data received is: ' + data)
         context.commit('UPDATE_LOGIN_STATUS', true)
     },
     logout(context) {
