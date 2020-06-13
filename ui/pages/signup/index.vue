@@ -1,11 +1,12 @@
 <template>
-    <SignUp></SignUp>
+  <UserAuthForm v-bind:signUpForm="true"></UserAuthForm>
 </template>
 <script>
-import SignUp from "~/components/SignUp/SignUp";
+import UserAuthForm from "~/components/UserAuthForm";
+
 export default {
-    components: {
-        SignUp
-    }
-}
+  components: {
+    UserAuthForm
+  }
+};
 </script>

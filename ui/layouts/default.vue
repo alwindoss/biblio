@@ -43,6 +43,16 @@
                   </v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
+              <v-list-item link>
+                <v-list-item-action>
+                  <v-icon>mdi-login</v-icon>
+                </v-list-item-action>
+                <v-list-item-content>
+                  <v-list-item-title>
+                    <nuxt-link to="signup">Sign Up</nuxt-link>
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
             </div>
           </v-list>
         </v-navigation-drawer>
