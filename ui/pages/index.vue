@@ -6,7 +6,6 @@
 <script>
 
 export default {
-  layout: 'unauthz',
   methods: {
     sayHello: function(params) {
       console.log(params)

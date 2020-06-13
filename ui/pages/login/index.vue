@@ -5,7 +5,6 @@
 import Login from "~/components/Login/Login";
 
 export default {
-  layout: "unauthz",
   components: {
     Login
   }

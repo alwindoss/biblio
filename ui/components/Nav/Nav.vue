@@ -39,6 +39,10 @@
 
       <div class="navbar-end">
         <div class="navbar-item">
+          <div class="buttons" v-if="$auth.loggedIn">
+            {{$auth.user.name}}
+            <a class="button is-light">Logout</a>
+          </div>
           <!-- <div class="buttons">
             <a class="button is-primary">
               <strong>Sign up</strong>
